@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540" width="400" height="540">
+  <defs>
+    <linearGradient id="baseemBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f8f0"/>
+      <stop offset="60%" style="stop-color:#eef5e8"/>
+      <stop offset="100%" style="stop-color:#d8eccc"/>
+    </linearGradient>
+    <linearGradient id="greenField" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#70b840;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#50a020;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#308010;stop-opacity:0.7"/>
+    </linearGradient>
+    <linearGradient id="topSeal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1b6030"/>
+      <stop offset="100%" style="stop-color:#2d8a46"/>
+    </linearGradient>
+    <linearGradient id="banner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1b4d2e"/>
+      <stop offset="50%" style="stop-color:#2d7a46"/>
+      <stop offset="100%" style="stop-color:#1b4d2e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Green top zipper seal -->
+  <rect x="0" y="0" width="400" height="45" rx="4" fill="url(#topSeal)"/>
+  <!-- Zipper dots -->
+  <g fill="rgba(255,255,255,0.4)">
+    <circle cx="30" cy="22" r="5"/>
+    <circle cx="60" cy="22" r="5"/>
+    <circle cx="90" cy="22" r="5"/>
+    <circle cx="120" cy="22" r="5"/>
+    <circle cx="150" cy="22" r="5"/>
+    <circle cx="180" cy="22" r="5"/>
+    <circle cx="210" cy="22" r="5"/>
+    <circle cx="240" cy="22" r="5"/>
+    <circle cx="270" cy="22" r="5"/>
+    <circle cx="300" cy="22" r="5"/>
+    <circle cx="330" cy="22" r="5"/>
+    <circle cx="360" cy="22" r="5"/>
+    <circle cx="390" cy="22" r="5"/>
+  </g>
+
+  <!-- Bag body -->
+  <rect x="0" y="43" width="400" height="497" rx="4" fill="url(#baseemBg)"/>
+
+  <!-- Green field background lower half -->
+  <rect x="0" y="300" width="400" height="240" fill="url(#greenField)"/>
+
+  <!-- Clover/grass illustration -->
+  <g opacity="0.5">
+    <circle cx="80" cy="420" r="12" fill="#50a020"/>
+    <circle cx="95" cy="410" r="10" fill="#60b830"/>
+    <circle cx="110" cy="420" r="12" fill="#50a020"/>
+    <circle cx="200" cy="430" r="14" fill="#50a020"/>
+    <circle cx="218" cy="418" r="11" fill="#60b830"/>
+    <circle cx="310" cy="425" r="12" fill="#50a020"/>
+    <circle cx="328" cy="415" r="10" fill="#60b830"/>
+  </g>
+
+  <!-- Logo -->
+  <circle cx="200" cy="100" r="38" fill="#1b4d2e"/>
+  <ellipse cx="200" cy="101" rx="34" ry="30" stroke="#c9960c" stroke-width="4.5" fill="none"/>
+  <!-- White leaves -->
+  <path d="M200 124 C188 112 176 100 178 86 C180 76 190 72 195 80 C200 88 200 106 200 124Z" fill="white"/>
+  <path d="M200 124 C195 110 193 94 194 82 C195 74 200 71 203 79 C206 88 204 106 200 124Z" fill="white"/>
+  <path d="M200 124 C212 112 224 100 222 86 C220 76 210 72 205 80 C200 88 200 106 200 124Z" fill="white" opacity="0.85"/>
+
+  <!-- HAMMAD SEED -->
+  <text x="200" y="152" fill="#1b4d2e" font-size="13" font-weight="900" font-family="Arial" letter-spacing="2" text-anchor="middle">HAMMAD SEED</text>
+  <text x="200" y="168" fill="#6a9a4a" font-size="10" font-family="Arial" font-style="italic" text-anchor="middle">— Quality Fodder Seeds —</text>
+
+  <!-- Special script -->
+  <text x="200" y="200" fill="#2d7a46" font-size="26" font-weight="700" font-family="Georgia, serif" font-style="italic" text-anchor="middle">Special</text>
+
+  <!-- Green banner with gold border -->
+  <rect x="30" y="210" width="340" height="90" rx="12" fill="url(#banner)" stroke="#c9960c" stroke-width="2.5"/>
+  <text x="200" y="240" fill="white" font-size="13" font-weight="900" font-family="Arial" letter-spacing="4" text-anchor="middle">PREMIUM</text>
+  <text x="200" y="268" fill="white" font-size="26" font-weight="900" font-family="Arial" letter-spacing="2" text-anchor="middle">BASEEM SEED</text>
+  <text x="200" y="288" fill="rgba(255,255,255,0.7)" font-size="9" font-family="Arial" text-anchor="middle" letter-spacing="1">BERSEEM CLOVER FODDER</text>
+
+  <!-- Feature icons row -->
+  <g>
+    <!-- High Yield -->
+    <circle cx="70" cy="345" r="22" fill="none" stroke="#1b4d2e" stroke-width="2"/>
+    <text x="70" y="340" font-size="14" text-anchor="middle">🌿</text>
+    <text x="70" y="358" fill="#1b4d2e" font-size="8" font-weight="700" font-family="Arial" text-anchor="middle">High Yield</text>
+    <text x="70" y="368" fill="#1b4d2e" font-size="7" font-family="Arial" text-anchor="middle">Fodder</text>
+
+    <!-- Disease Resistant -->
+    <circle cx="140" cy="345" r="22" fill="none" stroke="#1b4d2e" stroke-width="2"/>
+    <text x="140" y="340" font-size="14" text-anchor="middle">🛡️</text>
+    <text x="140" y="358" fill="#1b4d2e" font-size="8" font-weight="700" font-family="Arial" text-anchor="middle">Disease</text>
+    <text x="140" y="368" fill="#1b4d2e" font-size="7" font-family="Arial" text-anchor="middle">Resistant</text>
+
+    <!-- Long Lasting -->
+    <circle cx="210" cy="345" r="22" fill="none" stroke="#1b4d2e" stroke-width="2"/>
+    <text x="210" y="340" font-size="14" text-anchor="middle">⏳</text>
+    <text x="210" y="358" fill="#1b4d2e" font-size="8" font-weight="700" font-family="Arial" text-anchor="middle">Long</text>
+    <text x="210" y="368" fill="#1b4d2e" font-size="7" font-family="Arial" text-anchor="middle">Lasting</text>
+
+    <!-- Green Till End -->
+    <circle cx="280" cy="345" r="22" fill="none" stroke="#1b4d2e" stroke-width="2"/>
+    <text x="280" y="340" font-size="14" text-anchor="middle">🌱</text>
+    <text x="280" y="358" fill="#1b4d2e" font-size="8" font-weight="700" font-family="Arial" text-anchor="middle">Green Till</text>
+    <text x="280" y="368" fill="#1b4d2e" font-size="7" font-family="Arial" text-anchor="middle">End</text>
+  </g>
+
+  <!-- 4 KG badge -->
+  <circle cx="355" cy="345" r="30" fill="#c9960c"/>
+  <text x="355" y="338" fill="white" font-size="10" font-weight="800" font-family="Arial" text-anchor="middle">Net Wt.</text>
+  <text x="355" y="354" fill="white" font-size="16" font-weight="900" font-family="Arial" text-anchor="middle">4 KG</text>
+
+  <!-- Footer info -->
+  <line x1="0" y1="430" x2="400" y2="430" stroke="#c9960c" stroke-width="1.5"/>
+  <rect x="0" y="430" width="400" height="110" fill="#f0f5e8"/>
+
+  <!-- Logo small in footer -->
+  <circle cx="45" cy="460" r="22" fill="#1b4d2e"/>
+  <ellipse cx="45" cy="461" rx="19" ry="17" stroke="#c9960c" stroke-width="2.5" fill="none"/>
+  <path d="M45 474 C38 466 31 458 32 450 C34 445 39 443 42 448 C45 453 45 463 45 474Z" fill="white"/>
+  <path d="M45 474 C42 465 41 456 41 450 C42 446 45 444 47 449 C49 455 48 464 45 474Z" fill="white"/>
+  <path d="M45 474 C52 466 59 458 58 450 C56 445 51 443 48 448 C45 453 45 463 45 474Z" fill="white" opacity="0.85"/>
+
+  <text x="80" y="453" fill="#1b4d2e" font-size="14" font-weight="900" font-family="Arial" letter-spacing="1">HAMMAD &amp; COMPANY</text>
+  <text x="80" y="468" fill="#555" font-size="10" font-family="Arial">62-Gulistan Road, Sahiwal</text>
+  <text x="80" y="482" fill="#555" font-size="10" font-family="Arial">Tel: 0404-225520</text>
+  <text x="80" y="496" fill="#555" font-size="10" font-family="Arial">Email: hammadseeds@gmail.com</text>
+</svg>

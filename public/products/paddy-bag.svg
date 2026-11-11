@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8e8e0"/>
+      <stop offset="20%" style="stop-color:#f8f8f0"/>
+      <stop offset="80%" style="stop-color:#f8f8f0"/>
+      <stop offset="100%" style="stop-color:#d0d0c8"/>
+    </linearGradient>
+    <linearGradient id="fieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8c840;stop-opacity:0"/>
+      <stop offset="40%" style="stop-color:#90b030;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#607820;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="sideGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c0c0b8"/>
+      <stop offset="100%" style="stop-color:#d8d8d0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bag side panel -->
+  <rect x="0" y="10" width="70" height="500" rx="4" fill="url(#sideGrad)"/>
+  <text x="35" y="280" fill="#888" font-size="13" font-weight="900" font-family="Arial" letter-spacing="3" transform="rotate(-90,35,280)" text-anchor="middle" opacity="0.6">HAMMAD SEED</text>
+  <!-- Side logo small -->
+  <circle cx="35" cy="80" r="18" fill="#1b4d2e"/>
+  <ellipse cx="35" cy="81" rx="16" ry="14" stroke="#c9960c" stroke-width="2.5" fill="none"/>
+  <path d="M35 92 C30 86 24 80 25 73 C27 68 31 66 34 70 C37 74 37 83 35 92Z" fill="white"/>
+  <path d="M35 92 C32 85 30 77 31 71 C32 67 35 65 37 69 C39 74 38 83 35 92Z" fill="white"/>
+  <path d="M35 90 C40 85 46 80 45 73 C43 68 39 66 36 70 C33 74 33 82 35 90Z" fill="white" opacity="0.8"/>
+
+  <!-- Main bag body -->
+  <rect x="68" y="0" width="332" height="520" rx="8" fill="url(#bagGrad)"/>
+
+  <!-- Paddy field background -->
+  <rect x="68" y="220" width="332" height="300" fill="url(#fieldGrad)"/>
+
+  <!-- Green grass blades -->
+  <g opacity="0.7">
+    <path d="M80 520 Q90 400 100 350 Q110 400 120 520" fill="#6a9a20"/>
+    <path d="M130 520 Q145 390 155 340 Q165 390 175 520" fill="#7aaa28"/>
+    <path d="M180 520 Q192 410 200 360 Q208 410 220 520" fill="#6a9a20"/>
+    <path d="M240 520 Q255 400 265 345 Q275 400 285 520" fill="#7aaa28"/>
+    <path d="M300 520 Q315 405 325 355 Q335 405 345 520" fill="#6a9a20"/>
+    <path d="M360 520 Q372 415 380 365 Q388 415 398 520" fill="#7aaa28"/>
+  </g>
+
+  <!-- Rice grain clusters at top of grass -->
+  <g fill="#d4b860" opacity="0.9">
+    <ellipse cx="100" cy="348" rx="4" ry="8"/>
+    <ellipse cx="96" cy="342" rx="3" ry="6"/>
+    <ellipse cx="104" cy="344" rx="3" ry="6"/>
+    <ellipse cx="155" cy="338" rx="4" ry="8"/>
+    <ellipse cx="150" cy="332" rx="3" ry="6"/>
+    <ellipse cx="160" cy="334" rx="3" ry="6"/>
+    <ellipse cx="265" cy="343" rx="4" ry="8"/>
+    <ellipse cx="325" cy="353" rx="4" ry="8"/>
+  </g>
+
+  <!-- Logo at top center -->
+  <circle cx="234" cy="65" r="34" fill="#1b4d2e"/>
+  <ellipse cx="234" cy="66" rx="30" ry="27" stroke="#c9960c" stroke-width="4" fill="none"/>
+  <!-- White leaves -->
+  <path d="M234 88 C224 78 214 68 216 56 C218 48 226 44 230 50 C234 56 234 72 234 88Z" fill="white"/>
+  <path d="M234 88 C230 76 228 62 229 52 C230 46 234 43 237 50 C240 57 238 72 234 88Z" fill="white"/>
+  <path d="M234 88 C244 78 254 68 252 56 C250 48 242 44 238 50 C234 56 234 72 234 88Z" fill="white" opacity="0.85"/>
+
+  <!-- HAMMAD SEED text under logo -->
+  <text x="234" y="112" fill="#1b4d2e" font-size="11" font-weight="900" font-family="Arial" letter-spacing="2" text-anchor="middle">HAMMAD SEED</text>
+
+  <!-- Product name -->
+  <text x="234" y="165" fill="#1a1a1a" font-size="52" font-weight="900" font-family="Georgia, serif" font-style="italic" text-anchor="middle">Paddy</text>
+  <text x="234" y="195" fill="#2a2a2a" font-size="22" font-weight="900" font-family="Arial" letter-spacing="6" text-anchor="middle">SEED</text>
+
+  <!-- Decorative line -->
+  <line x1="140" y1="205" x2="328" y2="205" stroke="#c9960c" stroke-width="1" opacity="0.5"/>
+
+  <!-- Bowl of rice illustration -->
+  <ellipse cx="200" cy="420" rx="55" ry="18" fill="#8B5A2B" opacity="0.9"/>
+  <path d="M145 420 Q145 460 200 465 Q255 460 255 420 Z" fill="#A0522D"/>
+  <ellipse cx="200" cy="420" rx="55" ry="16" fill="#D2B48C"/>
+  <!-- Rice grains in bowl -->
+  <g fill="white" opacity="0.9">
+    <ellipse cx="185" cy="416" rx="6" ry="2.5" transform="rotate(-20,185,416)"/>
+    <ellipse cx="200" cy="412" rx="6" ry="2.5" transform="rotate(10,200,412)"/>
+    <ellipse cx="215" cy="415" rx="6" ry="2.5" transform="rotate(-15,215,415)"/>
+    <ellipse cx="192" cy="422" rx="6" ry="2.5" transform="rotate(5,192,422)"/>
+    <ellipse cx="208" cy="420" rx="6" ry="2.5" transform="rotate(-10,208,420)"/>
+  </g>
+
+  <!-- Loose grains bottom right -->
+  <g fill="#c8a840" opacity="0.8">
+    <ellipse cx="300" cy="460" rx="5" ry="2" transform="rotate(-30,300,460)"/>
+    <ellipse cx="315" cy="450" rx="5" ry="2" transform="rotate(20,315,450)"/>
+    <ellipse cx="308" cy="470" rx="5" ry="2" transform="rotate(-10,308,470)"/>
+    <ellipse cx="325" cy="465" rx="5" ry="2" transform="rotate(15,325,465)"/>
+    <ellipse cx="295" cy="475" rx="5" ry="2" transform="rotate(5,295,475)"/>
+  </g>
+
+  <!-- Quality badge -->
+  <circle cx="340" cy="400" r="30" fill="#c9960c"/>
+  <circle cx="340" cy="400" r="26" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="340" y="396" fill="white" font-size="11" font-weight="900" font-family="Arial" text-anchor="middle">20</text>
+  <text x="340" y="408" fill="white" font-size="8" font-family="Arial" text-anchor="middle">YEARS</text>
+
+  <!-- Footer strip -->
+  <rect x="68" y="470" width="332" height="50" fill="#1b4d2e"/>
+  <text x="234" y="492" fill="white" font-size="13" font-weight="900" font-family="Arial" letter-spacing="1" text-anchor="middle">HAMMAD &amp; COMPANY</text>
+  <text x="234" y="508" fill="rgba(255,255,255,0.7)" font-size="9" font-family="Arial" text-anchor="middle">62-Gulistan Road, Sahiwal. Email: hammadseeds@gmail.com</text>
+</svg>

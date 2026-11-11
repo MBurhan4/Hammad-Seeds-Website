@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <linearGradient id="wheatBag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0d890"/>
+      <stop offset="30%" style="stop-color:#e8c460"/>
+      <stop offset="70%" style="stop-color:#d4a830"/>
+      <stop offset="100%" style="stop-color:#b88820"/>
+    </linearGradient>
+    <linearGradient id="wheatField" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0d050;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#d4900c;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#a06000;stop-opacity:0.8"/>
+    </linearGradient>
+    <linearGradient id="sideWheat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a07820"/>
+      <stop offset="100%" style="stop-color:#c09030"/>
+    </linearGradient>
+    <linearGradient id="brownStripe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b3010;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#8b4820;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#6b3010;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Side panel -->
+  <rect x="0" y="0" width="70" height="520" rx="4" fill="url(#sideWheat)"/>
+  <text x="35" y="290" fill="#fff" font-size="12" font-weight="900" font-family="Arial" letter-spacing="3" transform="rotate(-90,35,290)" text-anchor="middle" opacity="0.9">HAMMAD SEED</text>
+
+  <!-- Main bag -->
+  <rect x="68" y="0" width="332" height="520" rx="6" fill="url(#wheatBag)"/>
+
+  <!-- Brown diagonal accent stripe -->
+  <path d="M68 0 L400 0 L400 60 L200 0 Z" fill="rgba(100,50,10,0.25)"/>
+  <path d="M68 0 L280 0 L200 40 L68 20 Z" fill="rgba(100,50,10,0.15)"/>
+
+  <!-- Wheat field background -->
+  <rect x="68" y="230" width="332" height="290" fill="url(#wheatField)"/>
+
+  <!-- Wheat stalks -->
+  <g stroke="#c8900c" stroke-width="1.5" opacity="0.6" fill="none">
+    <line x1="120" y1="520" x2="120" y2="300"/>
+    <line x1="160" y1="520" x2="165" y2="290"/>
+    <line x1="210" y1="520" x2="208" y2="295"/>
+    <line x1="260" y1="520" x2="262" y2="285"/>
+    <line x1="310" y1="520" x2="308" y2="300"/>
+    <line x1="360" y1="520" x2="358" y2="295"/>
+  </g>
+  <!-- Wheat grain heads -->
+  <g fill="#d4a010" opacity="0.8">
+    <ellipse cx="120" cy="295" rx="5" ry="12"/>
+    <ellipse cx="115" cy="290" rx="4" ry="9"/>
+    <ellipse cx="125" cy="288" rx="4" ry="10"/>
+    <ellipse cx="165" cy="285" rx="5" ry="12"/>
+    <ellipse cx="160" cy="280" rx="4" ry="9"/>
+    <ellipse cx="262" cy="280" rx="5" ry="12"/>
+    <ellipse cx="308" cy="295" rx="5" ry="11"/>
+    <ellipse cx="358" cy="290" rx="5" ry="12"/>
+  </g>
+
+  <!-- Sunrise glow -->
+  <ellipse cx="234" cy="350" rx="80" ry="40" fill="#f0a000" opacity="0.15"/>
+
+  <!-- Logo -->
+  <circle cx="234" cy="68" r="34" fill="#1b4d2e"/>
+  <ellipse cx="234" cy="69" rx="30" ry="27" stroke="#c9960c" stroke-width="4" fill="none"/>
+  <path d="M234 90 C224 80 214 70 216 58 C218 50 226 46 230 52 C234 58 234 74 234 90Z" fill="white"/>
+  <path d="M234 90 C230 78 228 64 229 54 C230 48 234 45 237 52 C240 59 238 74 234 90Z" fill="white"/>
+  <path d="M234 90 C244 80 254 70 252 58 C250 50 242 46 238 52 C234 58 234 74 234 90Z" fill="white" opacity="0.85"/>
+
+  <text x="234" y="115" fill="#3d1a00" font-size="11" font-weight="900" font-family="Arial" letter-spacing="2" text-anchor="middle">HAMMAD SEED</text>
+  <line x1="160" y1="120" x2="308" y2="120" stroke="#8b5a00" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- WHEAT SEED title -->
+  <text x="234" y="165" fill="#3d1a00" font-size="38" font-weight="900" font-family="Arial" letter-spacing="3" text-anchor="middle">WHEAT SEED</text>
+
+  <!-- Urdu text -->
+  <text x="234" y="195" fill="#5a3000" font-size="16" font-family="'Noto Nastaliq Urdu', serif" text-anchor="middle">معیاری بیج ، بہتر پیداوار</text>
+
+  <!-- Premium Quality badge -->
+  <circle cx="135" cy="255" r="36" fill="none" stroke="#8b5a00" stroke-width="2"/>
+  <circle cx="135" cy="255" r="30" fill="rgba(255,255,255,0.2)"/>
+  <text x="135" y="248" fill="#3d1a00" font-size="8" font-weight="800" font-family="Arial" text-anchor="middle" letter-spacing="1">PREMIUM</text>
+  <text x="135" y="260" fill="#3d1a00" font-size="10" font-weight="900" font-family="Arial" text-anchor="middle">QUALITY</text>
+  <text x="135" y="272" fill="#3d1a00" font-size="8" font-weight="800" font-family="Arial" text-anchor="middle">SEED</text>
+
+  <!-- Bottom info -->
+  <rect x="68" y="460" width="332" height="60" fill="rgba(240,210,120,0.6)"/>
+  <line x1="68" y1="460" x2="400" y2="460" stroke="#c9960c" stroke-width="2"/>
+
+  <text x="140" y="480" fill="#3d1a00" font-size="28" font-weight="900" font-family="Arial">50kg</text>
+  <text x="140" y="498" fill="#7a5000" font-size="10" font-family="Arial" font-weight="700">NET WEIGHT</text>
+
+  <text x="350" y="478" fill="#3d1a00" font-size="9" font-family="Arial" text-anchor="end" font-weight="700">Better Seed</text>
+  <text x="350" y="492" fill="#3d1a00" font-size="9" font-family="Arial" text-anchor="end" font-weight="700">Better Yield</text>
+</svg>

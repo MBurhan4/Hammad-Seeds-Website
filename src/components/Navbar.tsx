@@ -40,9 +40,9 @@ export default function Navbar() {
 
         {/* Brand */}
         <a href="#home" style={{ display: "flex", alignItems: "center", gap: 12, textDecoration: "none" }}>
-          {/* Logo — no white wrapper, SVG has its own circle */}
-          <div style={{ borderRadius: "50%", overflow: "hidden",
-                        boxShadow: "0 0 0 2.5px #c9960c, 0 0 0 5px rgba(201,150,12,0.25), 0 4px 16px rgba(0,0,0,0.4)" }}>
+          {/* Logo */}
+          <div style={{ borderRadius: "50%", overflow: "hidden", flexShrink: 0,
+                        boxShadow: "0 4px 16px rgba(0,0,0,0.4)" }}>
             <Logo size={46} />
           </div>
           <div>

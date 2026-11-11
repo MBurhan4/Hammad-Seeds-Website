@@ -13,9 +13,9 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: "1.2rem" }}>
-          {/* Logo — SVG is self-contained with green circle */}
+          {/* Logo */}
           <div style={{ borderRadius: "50%", overflow: "hidden", flexShrink: 0,
-                         boxShadow: "0 0 0 2.5px #c9960c, 0 4px 16px rgba(0,0,0,0.5)" }}>
+                         boxShadow: "0 4px 16px rgba(0,0,0,0.5)" }}>
                 <Logo size={48} />
               </div>
               <div>

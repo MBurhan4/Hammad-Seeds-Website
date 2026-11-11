@@ -54,7 +54,7 @@ export default function Hero() {
             display:"inline-flex",
             borderRadius:"50%",
             overflow:"hidden",
-            boxShadow:"0 0 0 3px #c9960c, 0 0 0 7px rgba(201,150,12,0.25), 0 24px 60px rgba(0,0,0,0.6)",
+            boxShadow:"0 8px 40px rgba(0,0,0,0.6), 0 0 0 4px rgba(201,150,12,0.3)",
           }}>
             <Logo size={130} />
           </div>

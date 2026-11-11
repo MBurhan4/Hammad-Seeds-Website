@@ -37,9 +37,11 @@ export default function About() {
                           backgroundImage: "repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 0,transparent 50%)",
                           backgroundSize: "16px 16px" }} />
             <div style={{ position: "relative", zIndex: 1 }}>
-              {/* Real logo instead of emoji */}
+              {/* Logo */}
               <div style={{ display:"flex", justifyContent:"center", marginBottom:"1rem" }}>
-                <Logo size={72} />
+                <div style={{ borderRadius:"50%", overflow:"hidden", boxShadow:"0 4px 20px rgba(0,0,0,0.3)" }}>
+                  <Logo size={72} />
+                </div>
               </div>
               <h3 className="urdu" style={{ color: "#fff", fontSize: "1.5rem", textAlign: "center",
                                              marginBottom: "1.5rem", lineHeight: 1.8,

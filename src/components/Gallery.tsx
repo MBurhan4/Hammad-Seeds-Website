@@ -61,8 +61,9 @@ export default function Gallery() {
                   ))}
                 </div>
 
-                {/* Logo area — real SVG logo */}
-                <div style={{ marginBottom: 10 }}>
+                {/* Logo */}
+                <div style={{ marginBottom: 10, borderRadius:"50%", overflow:"hidden",
+                               boxShadow:"0 2px 12px rgba(0,0,0,0.3)" }}>
                   <Logo size={56} />
                 </div>
 
